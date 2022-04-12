@@ -12,30 +12,37 @@
     <title>DogHome</title>
 </head>
 <body>
+    <a id="totop" href="#header">
+        <img src="img/move-top.png">
+    </a>
     <header id="header">
         <div id="top">
             <div id="logo">
                 <a href="index.html">Dog Home</a>
             </div>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="#statistics">Statistics</a>
-                <a href="#services">Services</a>
-                <div id="dropDown">
-                    <button id="dropBtn">Drop down <i class="fa-solid fa-angle-down"></i></button>
-                    <div id="dropDowncont">
-                        <a href="#statistics">Statistics</a>
-                        <a href="#services">Services</a>
-                        <a href="#contact">ContactUs</a>
-                    </div>
-                </div>
-                <a href="#contact">Contact Us</a>
-            </nav>
+            <div id="menu">
+                <nav>
+                    <label for="input1">Menu</label>
+                    <input type="checkbox" id="input1" />
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#statistics">Statistics</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li class="dropdown">
+                            <a id="dropbtn" href="#">Dropdown </a>
+                            <ul>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#what-we-do">What we do</a></li>
+                                <li><a href="#test">Testimonials</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-
         <div id="main-header">
             <h2>HOW TO TRAIN YOUR DOG</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, culpa! Nesciunt neque non iusto, quibusdam sunt qui praesentium minus aspernatur error sapiente distinctio adipisci iure ipsa doloremque. Earum, officiis nostrum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eos ex facilis nesciunt aliquid sint eum mollitia ducimus incidunt, veniam expedita deleniti dolor nam numquam doloribus obcaecati cumque culpa inventore.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, culpa! Nesciunt neque non iusto, quibusdam sunt qui praesentium minus aspernatur error sapiente distinctio adipisci iure ipsa doloremque. Earum, officiis nostrum.</p>
             <button>Read More</button>
         </div>
@@ -43,6 +50,11 @@
             <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
         </div>
     </header>
+    <section id="welcome">
+        <h1>Welcome to Our Website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa unde quasi nulla. Porro in explicabo tempore esse aut sint obcaecati, veritatis aliquam autem odio eum minus, illo sed nobis! Doloremque.</p>
+        <img src="./img/about2.jpg">
+    </section>
     <section id="what-we-do">
         <h2>What we do</h2>
         <div class="container">
@@ -92,25 +104,18 @@
         <div id="sta">
             <h1>Our Statistics</h1>
         </div>
-        <div id="sta0">
-            <div id="sta1">
         <div class="container">
             <div class="item">
                 <h1>8</h1>
                 <p>Years of Experience</p>
             </div>
-            <div id="sta2">
             <div class="item">
                 <h1>600</h1>
                 <p>Contest attended</p>
-             </div>
-            <div id="sta3">
             </div>
             <div class="item">
                 <h1>300</h1>
                 <p>Happy Customer</p>
-             </div>
-            <div id="sta4">
             </div>
             <div class="item">
                 <h1>30</h1>
@@ -283,16 +288,16 @@
                 <h2>CONNECT WITH SOCIAL</h2>
                 <div id="link">
                     <a href="https://www.facebook.com/" target="blank">
-                        <img src="./logo/facebook-icon.png">
+                        <img src="./logo/2048px-Facebook_logo_36x36.svg.png">
                     </a>
                     <a href="https://www.google.com/" target="blank">
-                        <img src="./logo/118281296892876259.png">
+                        <img src="./logo/google-plus-logo-2A4DC189D3-seeklogo.com.png">
                     </a>
                     <a href="https://web.telegram.org/k/" target="blank">
-                        <img src="./logo/download.png">
+                        <img src="./logo/Telegram_2013_logo.svg.png">
                     </a>
                     <a href="https://twitter.com/?lang=vi" target="blank">
-                        <img src="./logo/Twitter-logo-on-transparent-background-PNG.png">
+                        <img src="./logo/Twitter-Logo-Square.png">
                     </a>
                 </div>
             </div>
