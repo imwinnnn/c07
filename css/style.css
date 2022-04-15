@@ -29,7 +29,7 @@ header {
 header #top{
     display: flex;
     justify-content: space-between;
-    font-size: 20gpx;
+    font-size: 20px;
 }
 header #logo{
     margin-left: 30px;
@@ -77,6 +77,7 @@ header .dropdown  ul {
     position: absolute;
     text-align: left;
     padding: 0;
+    border-radius: 5px;
 }
 header nav > ul > li:hover > ul {
     display: block;
@@ -121,7 +122,7 @@ header #label-first .dot{
     margin: auto auto;
     height: 15px;
     width: 15px;
-    background-color: rgba(7, 7, 7, 0.596);
+    background-color:#fff;
     border-radius: 50%;
     display:inline-block;
     margin-left: 5px;
